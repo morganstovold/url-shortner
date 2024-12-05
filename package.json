@@ -3,7 +3,7 @@
   "version": "1.0.50",
   "scripts": {
     "dev": "bun run --watch src/index.ts",
-    "build": "bun build --minify-whitespace --minify-syntax --target bun --outdir server ./src/index.ts"
+    "build": "bun build --minify-whitespace --minify-syntax --target=bun ./src/index.ts --outdir ./build"
   },
   "dependencies": {
     "@elysiajs/cookie": "^0.3.0-rc.3",
